@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/song-search-xstate/static/css/main.18483c3f.chunk.css",
+    "main.css": "/song-search-xstate/static/css/main.1569c76a.chunk.css",
     "main.js": "/song-search-xstate/static/js/main.88bf6cc7.chunk.js",
     "main.js.map": "/song-search-xstate/static/js/main.88bf6cc7.chunk.js.map",
     "runtime-main.js": "/song-search-xstate/static/js/runtime-main.02628861.js",
@@ -8,9 +8,9 @@
     "static/js/2.f0648cef.chunk.js": "/song-search-xstate/static/js/2.f0648cef.chunk.js",
     "static/js/2.f0648cef.chunk.js.map": "/song-search-xstate/static/js/2.f0648cef.chunk.js.map",
     "index.html": "/song-search-xstate/index.html",
-    "precache-manifest.2b69169a85fc797e591e7f02642d43a8.js": "/song-search-xstate/precache-manifest.2b69169a85fc797e591e7f02642d43a8.js",
+    "precache-manifest.f946ff82a7b633e619bd5a5e798000e2.js": "/song-search-xstate/precache-manifest.f946ff82a7b633e619bd5a5e798000e2.js",
     "service-worker.js": "/song-search-xstate/service-worker.js",
-    "static/css/main.18483c3f.chunk.css.map": "/song-search-xstate/static/css/main.18483c3f.chunk.css.map",
+    "static/css/main.1569c76a.chunk.css.map": "/song-search-xstate/static/css/main.1569c76a.chunk.css.map",
     "static/js/2.f0648cef.chunk.js.LICENSE.txt": "/song-search-xstate/static/js/2.f0648cef.chunk.js.LICENSE.txt",
     "static/media/cross.svg": "/song-search-xstate/static/media/cross.4f744e82.svg",
     "static/media/loading.svg": "/song-search-xstate/static/media/loading.0f51771c.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.02628861.js",
     "static/js/2.f0648cef.chunk.js",
-    "static/css/main.18483c3f.chunk.css",
+    "static/css/main.1569c76a.chunk.css",
     "static/js/main.88bf6cc7.chunk.js"
   ]
 }
