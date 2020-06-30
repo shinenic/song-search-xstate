@@ -1,0 +1,42 @@
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+%fade-in{
+  animation: fade-in 0.8s 1 both;
+}
+
+@keyframes loading-animation {
+  0% {
+    width: 0%;
+  }
+  5% {
+    width: 0%;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  40% {
+    width: 104%;
+  }
+  90% {
+    width: 104%;
+    opacity: 0;
+  }
+  100% {
+    width: 104%;
+    opacity: 0;
+  }
+}
+
+%loading-animation {
+  animation: loading-animation 2s ease-in-out infinite;
+}
+

@@ -1,0 +1,60 @@
+.search-box {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  margin-bottom: 30px;
+  background: $black-main;
+  opacity: 0.8;
+  z-index: 10;
+  position: sticky;
+  top: 10px;
+
+  &__input {
+    width: calc(100% - 2rem);
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 4rem 0 1.4rem;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    letter-spacing: 0.1ex;
+    font-size: 1.4rem;
+    background: $black-second;
+    display: block;
+    color: $text-input;
+    transition: border 0.3s;
+
+    &:focus {
+      border: 2px solid $input-border;
+      outline: none;
+
+      & ~ img {
+        filter: $icon-active;
+      }
+    }
+
+    &::placeholder {
+      font-size: 1.25rem;
+      letter-spacing: 0.15ex;
+      color: $text-placeHolder;
+      opacity: 1; /* For Firefox */
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    max-height: 1.6rem;
+    max-width: 1.6rem;
+    top: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: $icon-default;
+    transition: filter 0.3s;
+    cursor: pointer;
+
+    &--cross,
+    &--search {
+      right: 2.4rem;
+    }
+  }
+}

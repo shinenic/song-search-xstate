@@ -1,0 +1,51 @@
+@import "./common/variables";
+@import "./common/keyframes";
+
+html,
+body,
+#root {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei",
+    "標楷體", "DFKai-SB", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background-color: $black-main;
+  color: #fff;
+}
+
+html {
+  /* For Mobile which width is less than 390px */
+  font-size: 16px;
+  @media (max-width: 390px) {
+    font-size: 14.5px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+input {
+  font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei",
+    "標楷體", "DFKai-SB", sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+@import "./component/app";
+@import "./component/result";
+@import "./component/searchBox";
+@import "./component/notify";
